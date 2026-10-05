@@ -12,6 +12,13 @@ This is Phase 1 of the plan, the **session logger**:
 Sessions are stored in the browser (localStorage) for now. Storage sits behind a small
 `SessionStore` interface in `src/lib/storage.ts`, so Supabase can replace it later.
 
+## Look and feel
+
+The UI uses the Case Register design system from Claude Design: the token and component CSS
+lives in `src/styles/design-system/` (copied as-is), and `src/index.css` adds the swim-specific
+pieces using those tokens. Light and dark themes follow the system setting and can be toggled
+from the header; the choice is remembered in the browser.
+
 ## Quick-add shorthand
 
 `[reps x]distance` first, then in any order:

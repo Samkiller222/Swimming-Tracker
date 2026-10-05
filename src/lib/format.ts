@@ -60,3 +60,8 @@ export function formatMonth(iso: string): string {
   const [y, m] = iso.split('-').map(Number)
   return new Date(y, m - 1, 1).toLocaleDateString('en-GB', { month: 'long', year: 'numeric' })
 }
+
+/** "1 set", "3 sets". */
+export function plural(n: number, word: string): string {
+  return `${n} ${word}${n === 1 ? '' : 's'}`
+}
