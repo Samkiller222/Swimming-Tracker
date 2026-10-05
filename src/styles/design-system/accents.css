@@ -1,0 +1,11 @@
+/* Accent presets (data/accent-presets.json). Set data-accent on the same element as data-theme. Accent never changes the stamp/ok/brass status colours. */
+[data-accent="red"]{ --accent:#B23A2F; --accent-dark:#8C2C22; --accent-bg:#FBF1EF; }
+[data-theme="dark"][data-accent="red"]{ --accent:#E2685C; --accent-dark:#B23A2F; --accent-bg:rgba(226,104,92,.12); }
+[data-accent="navy"]{ --accent:#2A4E8C; --accent-dark:#1E3A6B; --accent-bg:#EAF0FA; }
+[data-theme="dark"][data-accent="navy"]{ --accent:#6E9EEB; --accent-dark:#3B5FA3; --accent-bg:rgba(110,158,235,.12); }
+[data-accent="plum"]{ --accent:#7A3B6B; --accent-dark:#5C2B50; --accent-bg:#F6EDF3; }
+[data-theme="dark"][data-accent="plum"]{ --accent:#C97FB5; --accent-dark:#8C4F79; --accent-bg:rgba(201,127,181,.12); }
+[data-accent="teal"]{ --accent:#1F7A72; --accent-dark:#155A54; --accent-bg:#E9F5F3; }
+[data-theme="dark"][data-accent="teal"]{ --accent:#5FC4B8; --accent-dark:#2F8C82; --accent-bg:rgba(95,196,184,.12); }
+[data-accent="charcoal"]{ --accent:#3A4652; --accent-dark:#252E38; --accent-bg:#EEF0F2; }
+[data-theme="dark"][data-accent="charcoal"]{ --accent:#9FB0BD; --accent-dark:#5C6B78; --accent-bg:rgba(159,176,189,.12); }

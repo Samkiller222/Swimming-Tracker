@@ -1,0 +1,55 @@
+/* Case Register colour tokens — light is the default; dark applies to any element (or :root) with data-theme="dark". */
+:root{
+  --bg:#EDF0F2;
+  --surface:#FFFFFF;
+  --surface-alt:#F5F7F8;
+  --border:#D7DEE3;
+  --text:#1B2733;
+  --muted:#5C6B78;
+  --header-bg:#1B2733;
+  --header-text:#EDF0F2;
+  --header-muted:#AEB9C4;
+  --stamp:#B23A2F;
+  --stamp-dark:#8C2C22;
+  --stamp-bg:#FBF1EF;
+  --accent:#B23A2F;
+  --accent-dark:#8C2C22;
+  --accent-bg:#FBF1EF;
+  --brass:#A98A4B;
+  --brass-bg:#FBF6EA;
+  --ok:#3A6B52;
+  --ok-bg:#EAF3EE;
+  /* semantic aliases */
+  --surface-page:var(--bg);
+  --surface-card:var(--surface);
+  --surface-input:var(--surface-alt);
+  --text-body:var(--text);
+  --text-muted:var(--muted);
+  --status-error:var(--stamp);
+  --status-warn:var(--brass);
+  --status-ok:var(--ok);
+}
+[data-theme="dark"]{
+  --bg:#10151B;
+  --surface:#171E26;
+  --surface-alt:#1E2731;
+  --border:#2B3742;
+  --text:#E8EDF1;
+  --muted:#93A2AD;
+  --header-bg:#0B0F14;
+  --header-text:#EDF0F2;
+  --header-muted:#8493A0;
+  --stamp:#E2685C;
+  --stamp-dark:#B23A2F;
+  --stamp-bg:rgba(226,104,92,.12);
+  --accent:#E2685C;
+  --accent-dark:#B23A2F;
+  --accent-bg:rgba(226,104,92,.12);
+  --brass:#D3B476;
+  --brass-bg:rgba(211,180,118,.12);
+  --ok:#63B98D;
+  --ok-bg:rgba(99,185,141,.12);
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 24px rgba(0,0,0,.35);
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.35);
+  color-scheme:dark;
+}

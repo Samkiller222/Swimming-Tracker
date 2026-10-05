@@ -1,0 +1,18 @@
+:root{
+  --radius-lg:14px;
+  --radius-md:10px;
+  --radius-sm:8px;
+  --radius-pill:999px;
+  --shadow: 0 1px 2px rgba(15,23,32,.05), 0 8px 20px rgba(15,23,32,.06);
+  --shadow-sm: 0 1px 2px rgba(15,23,32,.06);
+  --focus-ring:0 0 0 3px var(--accent-bg);
+  --space-1:4px;
+  --space-2:8px;
+  --space-3:10px;
+  --space-4:14px;
+  --space-5:18px;
+  --space-6:24px;
+  --space-7:28px;
+  --space-8:32px;
+  --content-max:1180px;
+}
